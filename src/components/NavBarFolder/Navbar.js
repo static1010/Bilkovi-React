@@ -1,12 +1,16 @@
 import React from "react";
 import BtnsNavBar from "./BtnsNavBar";
+import classes from "./NavBar.module.css";
+import StoreImgNavBar from "./StoreImgNavBar";
+import TeraPicture from "./TeraPicture";
 const NavBar = () => {
     return ( <
-        React.Fragment >
+        React.Fragment > { " " } < TeraPicture / >
         <
-        nav >
+        nav className = { classes.NVBar } > { " " }
+
         <
-        BtnsNavBar / >
+        BtnsNavBar / > < StoreImgNavBar / >
         <
         /nav>{" "} <
         /React.Fragment>
