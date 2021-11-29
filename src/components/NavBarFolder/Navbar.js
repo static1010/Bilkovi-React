@@ -5,14 +5,15 @@ import StoreImgNavBar from "./StoreImgNavBar";
 import TeraPicture from "./TeraPicture";
 const NavBar = () => {
     return ( <
-        React.Fragment > { " " } < TeraPicture / >
+        React.Fragment > { " " } <
+        TeraPicture / >
         <
-        nav className = { classes.NVBar } > { " " }
-
-        <
+        nav className = { classes.NVBar } > { " " } <
         BtnsNavBar / > < StoreImgNavBar / >
         <
-        /nav>{" "} <
+        /nav>{" "}
+
+        <
         /React.Fragment>
     );
 };
