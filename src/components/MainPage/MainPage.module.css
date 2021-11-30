@@ -4,8 +4,18 @@
 }
 
 .mainPicture img {
+    z-index: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transform: rotateZ( 0deg) translateY(3rem) translateX(-1rem);
+    transform: rotateZ(0deg) translateY(3rem) translateX(-1rem);
+}
+
+.divText {
+    position: absolute;
+    left: 25%;
+    top: 19.3%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #403739;
 }
