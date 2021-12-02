@@ -1,8 +1,10 @@
-.phone {
-    margin-left: 15rem;
-    margin-top: 2rem;
-}
-
 img {
     padding-left: 14px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 45% 45% 45%;
+    margin-left: 9rem;
+    margin-top: 2rem;
 }

@@ -4,7 +4,7 @@ import imgBag from "../../img/VectorBag.png";
 import classes from "./StoreImgNavBar.module.css";
 const StoreImgNavBar = () => {
     return ( <
-        div >
+        div className = { classes.container } >
         <
         img src = { imgPhone }
         alt = "Phone"
